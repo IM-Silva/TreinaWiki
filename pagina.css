@@ -1,0 +1,52 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    color: #3366cc;
+}
+
+a:not(:hover ){
+    text-decoration: none;
+}
+
+.header  {
+    padding: 12px 24px;
+    background-color: #ffe08a;
+    /* background-color: #eaecf0; */
+}
+
+.logo-figura {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+}
+
+.logo-nome {
+    margin: 0 12px;
+    font-size: 35px;
+}
+
+.footer {
+    /* background-color: #eaecf0; */
+    background-color: #ffe08a;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.span {
+    font-size: 11px;
+    position: relative;
+    top: 14px;
+}
+
+.header-conteudo {
+    max-width: 40em;
+    margin: 0 auto;
+}
